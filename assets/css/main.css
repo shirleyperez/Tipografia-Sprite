@@ -1,0 +1,43 @@
+.box{
+    width: 220px;
+    height: 270px;
+    box-shadow:  8px 10px 14px -8px #fa78f5;
+    float: left;
+    text-align: center;
+    background-color: #eec3f0;
+    padding-top: 30px;
+    margin: 5px;
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+h2 {
+    font-family:  'playfair Display', serif;
+    color: #777777;
+}
+.box:hover {
+    padding-top: 20px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    -webkit-transform: scale(1.1);
+    color: #8C8F98;
+    -webkit-transition: all .0.5s ease-in-out;
+}
+.icon-paperplane:before {
+  content: "\2708";
+  height: 100px;
+  width: 200px;
+}
+.icon-diamond:before {
+  content: "\1f48e";
+}
+.icon-heart:before {
+  content: "\1f496";
+}
+.icon-cup:before {
+  content: "\1f37a";
+}
+.icon-food:before {
+  content: "\1f35c";
+}
